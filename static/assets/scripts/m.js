@@ -31,6 +31,7 @@ if (nav) {
   var html = `
     <div class="fixed-nav-bar-container" style="display: flex; justify-content: center; align-items: center; height: 60px;">
       <div class="fixed-nav-bar-right" style="display: flex; gap: 20px;">
+        <a class="navbar-link" href="/"><i class="fa-solid fa-house navbar-icon"></i><span>Home</span></a>
         <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>Ga</an><an>mes</an></a>
         <a class="navbar-link" href="/./as"><i class="fa-solid fa-phone navbar-icon"></i><an>Ap</an><an>ps</an></a>
         <a class="navbar-link" href="/./ta"><i class="fa-solid fa-laptop navbar-icon"></i><an>Ta</an><an>bs</an></a>
