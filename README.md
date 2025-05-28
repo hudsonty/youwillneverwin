@@ -1,5 +1,10 @@
 # youwillneverwin
 
+![Status](https://img.shields.io/badge/status-active-303030?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-303030?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/node.js-18.x-303030?style=for-the-badge&logo=node.js)
+![Vercel](https://img.shields.io/badge/deploy-vercel-303030?style=for-the-badge&logo=vercel)
+
 **youwillneverwin** is a fast, secure, and stealthy web proxy designed to bypass school network filters and unblock the internet. No installs, no tracking — just access to the sites you need.
 
 ## Features
