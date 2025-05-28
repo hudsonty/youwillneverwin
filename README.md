@@ -14,8 +14,6 @@ This project is my take on the popular web proxy **Interstellar**, with a custom
 Visit the deployed site here:  
 [**youwillneverwin.vercel.app**](https://youwillneverwin.vercel.app)
 
-No setup required. Just open the site and go.
-
 ## Features
 
 - High-speed performance
@@ -25,13 +23,14 @@ No setup required. Just open the site and go.
 - Obfuscation and stealth features for bypassing filters
 - Customizable configuration and theming
 
+
 ## Tech Stack
 
-- Node.js / Express
-- WebSocket routing
-- URL rewriting and cloaking
-- Static asset bundling
-- Compatible with Vercel or any static host
+- HTML / CSS / JavaScript
+- Custom static frontend UI
+- JavaScript-based URL rewriting and routing
+- Hosted on Vercel
+- Built to interface with a proxy engine like Interstellar (remote backend)
 
 ## Deployment
 
@@ -39,8 +38,7 @@ No setup required. Just open the site and go.
 1. Fork this repository
 2. Go to [vercel.com](https://vercel.com)
 3. Import the project
-4. Set the output directory to `/static`
-5. Deploy and share your own URL
+4. Deploy and share your own URL
 
 ## Disclaimer
 
