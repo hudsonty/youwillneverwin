@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" id="tab-favicon" href="favicon.png" />
+    <title id="tab-title">Home</title>
+    <link rel="stylesheet" href="/assets/styles/main.css?v=8" />
+    <link rel="stylesheet" href="/assets/styles/global.css?v=8" />
+    <style>
+      .center-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body class="center" onload="splashtext()">
+    <div class="fixed-nav-bar"></div>
+    <div id="particles-js">
+      <script rel="preload" src="https://cdn.jsdelivr.net/particles.js/2.0.0/"></script>
+      <div class="main center-container">
+        <h1 class="title" style="margin: 0 10px;">
+          <img src="https://i.postimg.cc/V6w43fTT/text.png" alt="Image description" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
+        </h1>
+        <div class="search-container">
+          <form id="fs" method="POST">
+            <input id="is" class="main-search" placeholder="Search with Google or enter address" type="text" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/scripts/h.js?v=16"></script>
+    <script src="assets/scripts/i.js?v=18"></script>
+    <script src="./m/bundle.js?v=5"></script>
+    <script src="./m/config.js?v=5"></script>
+    <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
+    <script src="/assets/scripts/m.js?v=42"></script>
+    <!-- DO NOT REMOVE-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ642T6YV4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KZ642T6YV4');
+    </script>
+    <!-- DO NOT REMOVE-->
+    <div id="adv"></div>
+  </body>
+</html>
