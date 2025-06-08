@@ -7,7 +7,7 @@
 
 **youwillneverwin** is a fast, secure, and stealthy web proxy designed to bypass school network filters and unblock the internet. No installs, no tracking — just access to the sites you need.
 
-This project is my take on the popular web proxy **Interstellar**, with a custom frontend, structure, and approach.
+This project is my take on the popular web proxy **youwillneverwin**, with a custom frontend, structure, and approach.
 
 ## Live Site
 
@@ -23,18 +23,18 @@ Visit the deployed site here:
 - Obfuscation and stealth features for bypassing filters
 - Customizable configuration and theming
 
-
 ## Tech Stack
 
 - HTML / CSS / JavaScript
 - Custom static frontend UI
 - JavaScript-based URL rewriting and routing
 - Hosted on Vercel
-- Built to interface with a proxy engine like Interstellar (remote backend)
+- Built to interface with a proxy engine like youwillneverwin (remote backend)
 
 ## Deployment
 
 ### To deploy your own instance:
+
 1. Fork this repository
 2. Go to [vercel.com](https://vercel.com)
 3. Import the project
